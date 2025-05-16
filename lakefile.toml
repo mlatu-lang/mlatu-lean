@@ -1,0 +1,10 @@
+name = "mlatu-lean"
+version = "0.1.0"
+defaultTargets = ["mlatu-lean"]
+
+[[lean_lib]]
+name = "MlatuLean"
+
+[[lean_exe]]
+name = "mlatu-lean"
+root = "Main"
