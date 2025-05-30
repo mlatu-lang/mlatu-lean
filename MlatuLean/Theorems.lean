@@ -219,6 +219,6 @@ namespace cake_k
   def dup/1 = () cake i swap i.
   assert/1 dup = +.
 
-  def cat/2 = ((unit) cake k i) cake()k cake()k.
-    assert/2 cat = ,.
+  def cat/2 = ((i) cake k i) cake () k cake () k.
+  assert/2 cat = ,.
 end cake_k
